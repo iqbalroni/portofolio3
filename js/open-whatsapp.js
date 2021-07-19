@@ -1,4 +1,5 @@
 let buttonwa = document.getElementById('wa');
+let reply = document.getElementById('balas');
 let whatsapp = document.querySelector('.whatsapp');
 let exwhatsapp = document.querySelector('.exit-wht');
 let minwhatsapp = document.querySelector('.minim-wht');
@@ -15,6 +16,14 @@ let wa = document.querySelector('.wa');
 
 
 
+reply.onclick = function(){
+    whatsapp.style.top = "46.%";
+    whatsapp.style.width = "55%";
+    whatsapp.classList.add('active');
+    showwhatsapp.style.display = "block";
+    outwhatsapp.style.display = "none";
+    wa.style.height = "95%";
+}
 buttonwa.onclick = function(){
     whatsapp.style.top = "46.%";
     whatsapp.style.width = "55%";

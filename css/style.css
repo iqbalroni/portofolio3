@@ -96,4 +96,12 @@ body {
     .navbar ul li {
         height: 80px;
     }
+
+    .openfile .col-sm-3 {
+        width: 30%;
+    }
+
+    .openfile .col-sm-8 {
+        width: 70%;
+    }
 }

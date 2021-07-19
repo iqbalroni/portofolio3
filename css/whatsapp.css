@@ -199,3 +199,8 @@
 .whatsapp .chat .vn i {
     color: #FFFFFF;
 }
+
+.reply {
+    cursor: pointer;
+    color: blue;
+}
