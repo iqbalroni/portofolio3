@@ -10,6 +10,8 @@
 
 @import url(kalkulator.css);
 
+@import url(trash.css);
+
 * {
     padding: 0;
     margin: 0;
