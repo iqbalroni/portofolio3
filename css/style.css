@@ -6,6 +6,8 @@
 
 @import url(whatsapp.css);
 
+@import url(settings.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -88,6 +90,8 @@ body {
     border-radius: 25px 25px 0 0;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     .navbar {
         height: 80px;
@@ -103,5 +107,14 @@ body {
 
     .openfile .col-sm-8 {
         width: 70%;
+    }
+
+    .menu-windows {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menu-windows .col-sm-4 {
+        width: 33.33%;
     }
 }
