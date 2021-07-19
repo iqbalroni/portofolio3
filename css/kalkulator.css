@@ -1,0 +1,136 @@
+.kalkulator {
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+.kalkulator.open {
+    visibility: visible;
+}
+
+.kalkulator .bar-kal {
+    width: 100%;
+    height: 40px;
+}
+
+.kalkulator i {
+    font-size: 15px;
+    color: #677F92;
+}
+
+.kalkulator .exit-kal i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0 15px 0 0;
+}
+
+.kalkulator .exit-kal:hover i {
+    background-color: #D8383B;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.kalkulator .minim-kal i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.kalkulator .minim-kal:hover i {
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+.engine {
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #868997;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.kalkulator .hasil {
+    background-color: #44D7F8;
+    border: none;
+    border-radius: 5px;
+    color: #868997;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px inset;
+}
+
+.kalkulator .button {
+    color: #77818A;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #C9D2D9;
+    border: none;
+    width: 77px;
+    height: 70px;
+    margin: 4px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.kalkulator .button:hover {
+    background-color: #b7bbbe;
+}
+
+.kalkulator .blue {
+    height: 150px;
+    background-color: #124888;
+    color: #ffffff;
+}
+
+.kalkulator .blue:hover {
+    background-color: #123f77;
+}
+
+.kalkulator .null {
+    width: 160px;
+}
+
+@media only screen and (max-width: 800px) {
+    .kalkulator {
+        width: 85%;
+        height: 70%;
+    }
+
+    .kalkulator .button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .kalkulator .blue {
+        height: 110px;
+    }
+
+    .kalkulator .null {
+        width: 110px;
+    }
+}

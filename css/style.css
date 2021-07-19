@@ -8,6 +8,8 @@
 
 @import url(settings.css);
 
+@import url(kalkulator.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -90,6 +92,40 @@ body {
     border-radius: 25px 25px 0 0;
 }
 
+.time {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time h5 {
+    font-size: 15px;
+    padding: 0;
+    margin: 10px;
+    color: #303030;
+}
+
+.time i {
+    font-size: 12px;
+    padding: 0;
+    margin: 5px;
+    color: #303030;
+}
+
+.up-drop {
+    font-size: 12px;
+    padding: 0;
+    margin: 5px;
+}
+
+.up-drop i {
+    color: #303030;
+}
 
 
 @media only screen and (max-width: 600px) {
