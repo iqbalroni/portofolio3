@@ -1,0 +1,99 @@
+@import url(responsive.css);
+
+@import url(open_file.css);
+
+@import url(menuwindows.css);
+
+@import url(whatsapp.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron-wallpaper {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(../img/Windows11.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4DFF3;
+    height: 40px;
+    opacity: 95%;
+}
+
+.navbar-brand img {
+    width: 20px;
+}
+
+.content .btn img {
+    width: 45px;
+}
+
+.content .btn {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.navbar ul {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* line-height: 40px; */
+    margin-top: 15px;
+}
+
+.navbar ul li {
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(236, 250, 255);
+    height: 60px;
+    border-radius: 25px 25px 0 0;
+}
+
+.navbar ul li .img {
+    width: 30px;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.navbar ul li.active {
+    background-color: rgb(236, 250, 255);
+    height: 60px;
+    border-radius: 25px 25px 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .navbar ul li {
+        height: 80px;
+    }
+}

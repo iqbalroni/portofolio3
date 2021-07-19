@@ -1,0 +1,201 @@
+.whatsapp {
+    position: fixed;
+    top: 46%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 90%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.whatsapp.active {
+    visibility: visible;
+}
+
+.whatsapp .bar {
+    width: 100%;
+    height: 40px;
+}
+
+.whatsapp i {
+    font-size: 15px;
+    color: #677F92;
+}
+
+.whatsapp .exit-wht i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0 15px 0 0;
+}
+
+.whatsapp .exit-wht:hover i {
+    background-color: #D8383B;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.whatsapp .show-wht i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+}
+
+.whatsapp .show-min-wht i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: none;
+}
+
+
+.whatsapp .show-wht:hover i,
+.whatsapp .show-min-wht:hover i {
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+.whatsapp .minim-wht i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 75px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.whatsapp .minim-wht:hover i {
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+.whatsapp .content {
+    width: 100%;
+    height: 60px;
+    background-color: #085E56;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.whatsapp .wa {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+    background-image: url(../img/whatsapp.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.whatsapp .content h4 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.whatsapp .bar-menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.whatsapp .bar-menu i {
+    color: #ffffff;
+}
+
+.whatsapp .detail {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp .detail img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.whatsapp .detail i {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.wa .pesan {
+    width: 45%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.whatsapp .chat .input-group input {
+    background-color: #ffffff;
+    border: none;
+}
+
+.whatsapp .chat .input-group span {
+    background-color: #ffffff;
+    border: none;
+}
+
+.whatsapp .chat {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.whatsapp .chat .input-group {
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 15px;
+}
+
+.whatsapp .chat .input-group .emo {
+    border-radius: 25px 0 0 25px;
+}
+
+.whatsapp .chat .input-group .cam {
+    border-radius: 0 25px 25px 0;
+}
+
+.whatsapp .chat .vn {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #085E56;
+    margin-left: 5px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.whatsapp .chat .vn i {
+    color: #FFFFFF;
+}

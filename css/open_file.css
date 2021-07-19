@@ -1,0 +1,167 @@
+.openfile {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.openfile .bar {
+    width: 100%;
+    height: 40px;
+}
+
+.openfile.active {
+    visibility: visible;
+}
+
+.openfile i {
+    font-size: 15px;
+    color: #677F92;
+}
+
+.openfile .exit i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0 15px 0 0;
+}
+
+.openfile .exit:hover i {
+    background-color: #D8383B;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.openfile .show i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+}
+
+.openfile .show-min i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: none;
+}
+
+.openfile .show:hover i,
+.openfile .show-min:hover i {
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+.openfile .minim i {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 75px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.openfile .minim:hover i {
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+.openfile .jumbotron {
+    border: none;
+    border-radius: 30px;
+    opacity: 0;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.openfile .img-fluid {
+    border-radius: 15px;
+}
+
+.openfile .jumbotron:target {
+    opacity: 1;
+    display: block;
+}
+
+.openfile .list-group .list-group-item {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: none;
+    text-decoration: none;
+    color: #677F92;
+    transition: 0.5s;
+    margin: 3px;
+}
+
+.openfile .list-group .list-group-item:hover {
+    background-color: #dbdbdb;
+    border-radius: 25px;
+    color: #677F92;
+}
+
+.openfile .list-group-item.open {
+    background-color: #eeeeee;
+    border-radius: 25px;
+}
+
+.openfile ::-webkit-scrollbar {
+    margin-left: 10px;
+    width: 5px;
+    background-color: #ffffff;
+    border-radius: 0 50px 50px 0;
+}
+
+.openfile ::-webkit-scrollbar-thumb {
+    background-color: #677F92;
+    border-radius: 50px;
+}
+
+.btn-blue {
+    background-color: #677F92;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-blue:hover {
+    transform: scale(1.1);
+}
+
+.openfile .icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.openfile a {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
