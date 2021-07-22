@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron-wallpaper {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(../img/Windows11-blur.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jumbotron-wallpaper .input-group {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.jumbotron-wallpaper .input-group input {
+    background-color: transparent;
+    background-color: rgba(58, 58, 58, 0.233);
+    border: 1.8px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.jumbotron-wallpaper .input-group .btn {
+    background-color: #677F92;
+    border: 1.8px solid #677F92;
+    color: #ffffff;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.jumbotron-wallpaper .input-group .btn:hover {
+    background-color: #5b6c7a;
+    border: 1.8px solid #5b6c7a;
+}
+
+.jumbotron-wallpaper .input-group .btn:hover i {
+    transition: all 0.4s ease-in-out;
+}
+
+.jumbotron-wallpaper .img-profil {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.jumbotron-wallpaper .img-profil:hover {
+    transform: scale(1.1);
+}
+
+.jumbotron-wallpaper .input-group .btn:hover i {
+    transform: rotate(90deg);
+}
+
+.jumbotron-wallpaper input:focus {
+    border: none;
+}
+
+.jumbotron-wallpaper ::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.text {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.text h3 {
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+
+/* menu */
+.menu {
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.menu i {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.menu .dropdown-menu i {
+    color: #303030;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron-wallpaper .input-group {
+        width: 80%;
+    }
+}

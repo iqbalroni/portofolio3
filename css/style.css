@@ -155,4 +155,8 @@ body {
     .menu-windows .col-sm-4 {
         width: 33.33%;
     }
+
+    .time {
+        display: none;
+    }
 }
