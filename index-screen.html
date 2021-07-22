@@ -343,6 +343,7 @@
               <a class="dropdown-item" href="https://www.instagram.com/iqbalronii/"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
           </div>
+          <i id="fullscreen" class="fas fa-expand"></i>
           <i class="fas fa-volume-up"></i>
           <i class="fas fa-wifi"></i>
           <i class="fas fa-battery-full"></i>
@@ -352,6 +353,14 @@
         </div>
       </nav>
 
+
+      <script>
+        var screen = document.getElementById('fullscreen');
+        var el = document.documentElement;
+        screen.onclick = function(){
+            el.requestFullscreen();
+        }
+      </script>
 
     <script src="js/open-trash.js"></script>
     <script src="js/settings.js"></script>
