@@ -17,7 +17,7 @@
   <body>
     <audio autoplay>
       <source src="audio/windows11.ogg" type="audio/ogg">
-    Your browser does not support the audio element.
+      Your browser does not support the audio element.
     </audio>
     <div class="jumbotron-wallpaper jumbotron-fluid">
       <div class="position-fixed bottom-100 right-0 p-3" style="z-index: 5; right: 0; bottom: 40px;">
@@ -38,10 +38,6 @@
         </div>
       </div>
       <div class="content">
-
-        <div class="bully">
-
-        </div>
 
         <div class="trash">
           <div class="bar-trs">
@@ -141,6 +137,10 @@
             </div>
             <div class="pesan">
               <p>Hallo,Selamat datang di website portofolio iqbalroni</p>
+            </div>
+            <div class="pesan">
+              <p>saya masih berada di sekolah SMKN 1 Bondowoso
+                jurusan Rekayasa Perangkat Lunak, udah itu aja</p>
             </div>
 
             <div class="container">
@@ -386,5 +386,27 @@
           document.getElementById("tanggalwaktu").innerHTML = ((dt.getHours())) +":"+ ((dt.getMinutes()));
           // document.getElementById("tanggalwaktu").innerHTML = (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
     </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+  var memo;
+  var a = 5;
+  $('.whatsapp,.kalkulator,.openfile,.trash').draggable({
+      cursor: "grabbing",
+      snap:true,
+      snapTolerance:30,
+      // zIndex: a++,
+    start: function() {
+      memo = $(this).css('transition');
+      $(this).css("z-index", a++);
+      $(this).css('transition', 'none');
+    },
+    stop: function() {
+      $(this).css('transition', memo);
+    }
+  });
+</script>
   </body>
 </html>

@@ -2,7 +2,8 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: -250px;
+    margin-left: -300px;
     width: 50%;
     height: auto;
     background-color: #ffffff;

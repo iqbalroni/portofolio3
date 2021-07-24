@@ -17,7 +17,7 @@ let wa = document.querySelector('.wa');
 
 
 reply.onclick = function(){
-    whatsapp.style.top = "46.%";
+    whatsapp.style.top = "46%";
     whatsapp.style.width = "55%";
     whatsapp.classList.add('active');
     showwhatsapp.style.display = "block";
@@ -41,6 +41,7 @@ minwhatsapp.onclick = function(){
 }
 
 showwhatsapp.onclick = function(){
+    // whatsapp.style.transition = "all 1s ease-in-out";
     whatsapp.style.width = "90%";
     whatsapp.style.height = "85%";
     whatsapp.style.top = "50%";

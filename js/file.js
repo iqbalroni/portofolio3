@@ -13,11 +13,14 @@ let button = document.getElementById('file');
 let button2 = document.getElementById('file2');
 
 button.onclick = function(){
+    popup.style.transform = "none";
+    popup.style.marginTop = "-300px";
+    popup.style.marginLeft = "-300px";
     popup.style.borderRadius= "15px";
     ex.style.borderRadius = "0 15px 0 0";
     show.style.display = "block";
     showmin.style.display = "none";
-    popup.style.width = "80%";
+    popup.style.width = "50%";
     popup.style.height = "500px";
     popup.style.top= "50%";
     popup.classList.add('active');
@@ -25,11 +28,14 @@ button.onclick = function(){
 }
 
 button2.onclick = function(){
+    popup.style.transform = "none";
+    popup.style.marginTop = "-300px";
+    popup.style.marginLeft = "-300px";
     popup.style.borderRadius= "15px";
     ex.style.borderRadius = "0 15px 0 0";
     show.style.display = "block";
     showmin.style.display = "none";
-    popup.style.width = "80%";
+    popup.style.width = "50%";
     popup.style.height = "500px";
     popup.style.top= "50%";
     popup.classList.add('active');
@@ -46,6 +52,9 @@ minim.onclick = function(){
 }
 
 show.onclick = function(){
+    popup.style.transform = "translate(-50%, -50%)";
+    popup.style.marginTop = "0";
+    popup.style.marginLeft = "0";
     popup.style.width = "100%";
     popup.style.height = "100%";
     popup.style.borderRadius= "0";
@@ -56,7 +65,10 @@ show.onclick = function(){
 }
 
 showmin.onclick = function(){
-    popup.style.width = "80%";
+    popup.style.transform = "none";
+    popup.style.marginTop = "-300px";
+    popup.style.marginLeft = "-300px";
+    popup.style.width = "50%";
     popup.style.height = "500px";
     popup.style.borderRadius= "15px";
     ex.style.borderRadius = "0 15px 0 0";

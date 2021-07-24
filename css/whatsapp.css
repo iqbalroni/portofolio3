@@ -1,15 +1,18 @@
 .whatsapp {
-    position: fixed;
+    position: absolute;
     top: 46%;
     left: 52%;
-    transform: translate(-50%, -50%);
-    width: 55%;
-    height: 90%;
+    /* transform: translate(-50%, -50%); */
+    width: 46%;
+    height: 55%;
     background-color: #ffffff;
     border-radius: 15px;
+    transition: all 1s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     visibility: hidden;
-    transition: all 1s ease-in-out;
+    overflow: hidden;
+    margin-top: -250px;
+    margin-left: -175px;
 }
 
 .whatsapp.active {

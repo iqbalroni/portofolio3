@@ -12,9 +12,12 @@
 
 @import url(trash.css);
 
+@import url(audio.css);
+
 * {
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 body {
@@ -78,8 +81,6 @@ body {
 
 .navbar ul li:hover {
     background-color: rgb(236, 250, 255);
-    height: 60px;
-    border-radius: 25px 25px 0 0;
 }
 
 .navbar ul li .img {
@@ -90,8 +91,6 @@ body {
 
 .navbar ul li.active {
     background-color: rgb(236, 250, 255);
-    height: 60px;
-    border-radius: 25px 25px 0 0;
 }
 
 .time {
@@ -117,6 +116,7 @@ body {
     padding: 0;
     margin: 5px;
     color: #303030;
+    cursor: pointer;
 }
 
 .up-drop {
