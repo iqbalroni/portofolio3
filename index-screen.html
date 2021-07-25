@@ -11,10 +11,15 @@
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- dark mode -->
+    <link rel="stylesheet" href="css/darkmode.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>IqbalRoni | windows 11</title>
   </head>
   <body>
+    <input type="checkbox" class="custom-control-input bg-danger" id="darkSwitch">
+
     <audio autoplay>
       <source src="audio/windows11.ogg" type="audio/ogg">
       Your browser does not support the audio element.
@@ -139,8 +144,9 @@
               <p>Hallo,Selamat datang di website portofolio iqbalroni</p>
             </div>
             <div class="pesan">
-              <p>saya masih berada di sekolah SMKN 1 Bondowoso
-                jurusan Rekayasa Perangkat Lunak, udah itu aja</p>
+              <p>Saya sekarang masih berada di Smkn 1 Bondowoso di jurusan
+                Rekayasa Perangkat Lunak. Udah pak itu aja
+              </p>
             </div>
 
             <div class="container">
@@ -151,7 +157,7 @@
                       <i class="far fa-grin"></i>
                     </span>
                   </div>
-                  <input type="text" class="form-control" placeholder="type message">
+                  <input type="text" class="form-control" placeholder="type message" id="pesan" onkeydown="validation()">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <i class="fas fa-paperclip"></i>
@@ -320,14 +326,19 @@
         
 
       <nav class="navbar navbar-expand-lg navbar-light fixed-bottom">
-        <ul>
+        <ul id="mydiv">
           <li>
             <img src="img/windows.png" class="img" id="windows">
           </li>
           <li>
+              <label for="darkSwitch">
+                <img src="img/dark-mode.png" class="img">
+              </label>
+          </li>
+          <li>
               <img src="img/file-explorer-folder-libraries-icon-18298.png" class="img" id="file2">
           </li>
-          <li><a href=""><img src="img/groove-music.png" class="img"></a></li>
+          <li><a href="#"><img src="img/groove-music.png" class="img"></a></li>
           <li><img src="img/kalkulator.png" class="img" id="icon-kalkulator"></li>
           <li><img src="img/settings.png" class="img" id="set"></li>
         </ul>
@@ -362,6 +373,7 @@
         }
       </script>
 
+    <script src="js/dark-mode-switch.js"></script>
     <script src="js/open-trash.js"></script>
     <script src="js/settings.js"></script>
     <script src="js/calculator.js"></script>
@@ -401,6 +413,20 @@
     start: function() {
       memo = $(this).css('transition');
       $(this).css("z-index", a++);
+      $(this).css('transition', 'none');
+    },
+    stop: function() {
+      $(this).css('transition', memo);
+    }
+  });
+
+  $('#mydiv').sortable({
+    // distance:50,
+    container:"parent",
+    cursor:"grabbing",
+    axis : "x",
+    start: function() {
+      memo = $(this).css('transition');
       $(this).css('transition', 'none');
     },
     stop: function() {

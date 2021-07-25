@@ -1,0 +1,83 @@
+[data-theme="dark"] .jumbotron-wallpaper {
+    transition: all 1s ease-in-out;
+    background-image: url(../img/wp9378817.jpg);
+}
+
+[data-theme="dark"] .navbar {
+    background-color: #202020;
+    opacity: 90%;
+}
+
+[data-theme="dark"] .navbar ul li.active,
+[data-theme="dark"] .navbar ul li:hover {
+    background-color: #191919;
+}
+
+[data-theme="dark"] .time i,
+[data-theme="dark"] .time h5,
+[data-theme="dark"] .up-drop i {
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] .openfile i,
+[data-theme="dark"] .trash .exit-trs i,
+[data-theme="dark"] .kalkulator i,
+[data-theme="dark"] .whatsapp i {
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] .openfile .show:hover i,
+[data-theme="dark"] .openfile .show-min:hover i,
+[data-theme="dark"] .openfile .minim:hover i,
+[data-theme="dark"] .whatsapp .show-wht:hover i,
+[data-theme="dark"] .whatsapp .show-min-wht:hover i,
+[data-theme="dark"] .kalkulator .minim-kal:hover i,
+[data-theme="dark"] .whatsapp .minim-wht:hover i {
+    background-color: #191919;
+}
+
+[data-theme="dark"] .openfile,
+[data-theme="dark"] .whatsapp,
+[data-theme="dark"] .trash,
+[data-theme="dark"] .kalkulator {
+    background-color: #202020;
+}
+
+[data-theme="dark"] .whatsapp .wa {
+    background-image: url(../img/whatsapp-dark.jpg);
+}
+
+[data-theme="dark"] .wa .pesan,
+[data-theme="dark"] .whatsapp .content {
+    background-color: #202D36;
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] .whatsapp .chat .input-group input,
+[data-theme="dark"] .whatsapp .chat .input-group span {
+    background-color: #2D383E;
+}
+
+[data-theme="dark"] .openfile .list-group .list-group-item {
+    background-color: #202020;
+    color: #677F92;
+}
+
+[data-theme="dark"] .openfile .list-group .list-group-item:hover {
+    background-color: #191919;
+}
+
+[data-theme="dark"] .openfile .list-group-item.open {
+    background-color: #191919;
+    border-radius: 25px;
+}
+
+[data-theme="dark"] .openfile ::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+}
+
+[data-theme="dark"] .openfile .jumbotron {
+    background-color: #202020;
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 8px 24px;
+    color: #f1f1f1;
+}

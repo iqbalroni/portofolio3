@@ -137,8 +137,7 @@
 .openfile ::-webkit-scrollbar {
     margin-left: 10px;
     width: 5px;
-    background-color: #ffffff;
-    border-radius: 0 50px 50px 0;
+    background-color: transparent;
 }
 
 .openfile ::-webkit-scrollbar-thumb {

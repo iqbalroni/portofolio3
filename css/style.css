@@ -31,6 +31,7 @@ body {
     margin: 0;
     height: 100vh;
     background-image: url(../img/Windows11.jpg);
+    transition: all 1s ease-in-out;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -87,6 +88,11 @@ body {
     width: 30px;
     cursor: pointer;
     opacity: 100%;
+}
+
+.navbar ul li label {
+    margin: 0;
+    padding: 0;
 }
 
 .navbar ul li.active {
