@@ -1,9 +1,10 @@
 [data-theme="dark"] .jumbotron-wallpaper {
     transition: all 1s ease-in-out;
-    background-image: url(../img/wp9378817.jpg);
+    background-image: url(../img/Windows11-dark.jpg);
 }
 
 [data-theme="dark"] .navbar {
+    transition: all 1s ease-in-out;
     background-color: #202020;
     opacity: 90%;
 }
@@ -39,6 +40,7 @@
 [data-theme="dark"] .openfile,
 [data-theme="dark"] .whatsapp,
 [data-theme="dark"] .trash,
+[data-theme="dark"] .menu-windows,
 [data-theme="dark"] .kalkulator {
     background-color: #202020;
 }
@@ -79,5 +81,23 @@
 [data-theme="dark"] .openfile .jumbotron {
     background-color: #202020;
     box-shadow: rgba(0, 0, 0, 0.397) 0px 8px 24px;
+    color: #f1f1f1;
+}
+
+[data-theme="dark"] .menu-windows input {
+    color: #f1f1f1;
+    border-bottom: 2px solid #0467FF;
+    background-color: #363636;
+}
+
+[data-theme="dark"] .menu-windows .input-group-text {
+    color: #f1f1f1;
+    background-color: #363636;
+    border-bottom: 2px solid #0467FF;
+}
+
+[data-theme="dark"] .menu-windows .name,
+[data-theme="dark"] .menu-windows,
+[data-theme="dark"] .menu-windows .title {
     color: #f1f1f1;
 }

@@ -68,6 +68,11 @@
 .footer i {
     font-size: 20px;
     color: #677F92;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer i:hover {
+    transform: scale(1.2);
 }
 
 .menu-windows .col-sm-4 {
