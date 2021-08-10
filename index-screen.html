@@ -250,69 +250,291 @@
               <i class="fas fa-minus"></i>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-sm-3">
-              <div id="list-example" class="list-group">
-                <a class="list-group-item open" href="#list-item-1">
-                  <img src="img/folder.png" class="icon">  Portofolio 1</a>
-                <a class="list-group-item" href="#list-item-2"><img src="img/folder.png" class="icon"> Portofolio 2</a>
-                <a class="list-group-item" href="#list-item-3"><img src="img/folder.png" class="icon"> Portofolio 3</a>
-                <a class="list-group-item" href="#list-item-4"><img src="img/folder.png" class="icon"> Portofolio 4</a>
-                <a class="list-group-item" href="#list-item-5"><img src="img/folder.png" class="icon"> Portofolio 5</a>
-                <a class="list-group-item" href="#list-item-6"><img src="img/folder.png" class="icon"> Portofolio 6</a>
+          <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">All</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Website</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Design</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#work" role="tab" aria-controls="contact" aria-selected="false">School Work</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#sertifikat" role="tab" aria-controls="contact" aria-selected="false">Certificate</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#cv" role="tab" aria-controls="contact" aria-selected="false">Download CV</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row mt-2">
+                  <div class="col-sm-3">
+                    <div id="list-example" class="list-group">
+                      <a class="list-group-item open" href="#list-item-1">
+                        <img src="img/folder.png" class="icon">  Portofolio 1</a>
+                      <a class="list-group-item" href="#list-item-2"><img src="img/folder.png" class="icon"> Portofolio 2</a>
+                      <a class="list-group-item" href="#list-item-3"><img src="img/folder.png" class="icon"> Portofolio 3</a>
+                      <a class="list-group-item" href="#list-item-4"><img src="img/folder.png" class="icon"> Portofolio 4</a>
+                      <a class="list-group-item" href="#list-item-5"><img src="img/folder.png" class="icon"> Portofolio 5</a>
+                      <a class="list-group-item" href="#list-item-6"><img src="img/folder.png" class="icon"> Portofolio 6</a>
+                      <a class="list-group-item" href="#list-item-7"><img src="img/folder.png" class="icon"> Portofolio 7</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-8 d-flex align-items-center">
+                    <div class="container">
+                        <div class="jumbotron content" id="list-item-1">
+                          <h3>Fisrt My Portofolio</h3>
+                          <img src="img/my works/satu.jpg" class="img-fluid">
+                          <p>Ini adalah portofolio saya yang pertama di buat dengan bootstrap dan scss. Website ini hanya percobaan
+                            atau belajar membuat frontend. Dan ini adalah website Portofolio saya yang pertama
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+                        <div class="jumbotron content" id="list-item-2">
+                          <h3>Kalkulator JS</h3>
+                          <img src="img/my works/dua.jpg" class="img-fluid">
+                          <p>Ini adalah website kalkulator di buat dengan vanila css,html dan juga js disini saya belajar cara menghitung
+                            menggunakan js website ini hanya untuk belajar saja.
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+                        <div class="jumbotron content" id="list-item-3">
+                          <h3>Bot Menulis</h3>
+                          <img src="img/my works/tiga.jpg" class="img-fluid">
+                          <p>Bot menulis ini di buat dengan kegabutan yang sangat gabut membuat website menulis dari tulisan ketikan menjadi
+                            tulisan tangan ini berfungsi saat tugas online hwehwehweweh
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+                        <div class="jumbotron content" id="list-item-4">
+                          <h3>Brain</h3>
+                          <img src="img/my works/empat.jpg" class="img-fluid">
+                          <p>Website adalah website belajar membuat suatu project start up perkerjaan disini saya design website dan juga frontend
+                            developmentnya saya membuat flatdesignnya sendiri tanpa mengambil dari google menggunakan Adobe Ilustrator
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+                        <div class="jumbotron content" id="list-item-5">
+                          <h3>Get Waves</h3>
+                          <img src="img/my works/lima.jpg" class="img-fluid">
+                          <p>Mencoba menggunakan GetWaves untuk memberikan gelombang gelombang pada website agar tidak terlihat 
+      
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+                        <div class="jumbotron content" id="list-item-6">
+                          <h3>Design Logo Dan Konten Instagram</h3>
+                          <img src="img/my works/enam.jpg" class="img-fluid">
+                          <p>Membuat Logo dari adobe Ilustrator dan adobe Photoshop dan saya juga mempunyai instagram untuk mengisi kegabutan setiap
+                            hari saya nama akunnya adalah @CodingSkuy jangan luppa follow untuk belajar bersama
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+      
+                        <div class="jumbotron content" id="list-item-7">
+                          <h3>Design Logo Dan Konten Instagram</h3>
+                          <img src="img/my works/tujuh.jpg" class="img-fluid">
+                          <p>Membuat Logo dari adobe Ilustrator dan adobe Photoshop dan saya juga mempunyai instagram untuk mengisi kegabutan setiap
+                            hari saya nama akunnya adalah @CodingSkuy jangan luppa follow untuk belajar bersama
+                          </p>
+                          <button class="btn btn-blue">Kunjungi</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-8 d-flex align-items-center">
-              <div class="container">
-                  <div class="jumbotron content" id="list-item-1">
-                    <h3>Fisrt My Portofolio</h3>
-                    <img src="img/my works/satu.jpg" class="img-fluid">
-                    <p>Ini adalah portofolio saya yang pertama di buat dengan bootstrap dan scss. Website ini hanya percobaan
-                      atau belajar membuat frontend. Dan ini adalah website Portofolio saya yang pertama
-                    </p>
-                    <button class="btn btn-blue">Kunjungi</button>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="page">
+                  <div class="web mt-3">
+                    <div class="box">
+                      <img src="img/my works/satu.jpg" alt="">
+                    </div>
+                    <div class="box">
+                      <img src="img/my works/tiga.jpg" alt="">
+                    </div>
+                </div>
+                <div class="web mt-3">
+                    <div class="box">
+                      <img src="img/my works/lima.jpg" alt="">
+                    </div>
+                    <div class="box">
+                      <img src="img/my works/empat.jpg" alt="">
+                    </div>
+                </div>
+                <div class="web mt-3">
+                    <div class="box">
+                      <img src="img/my works/dua.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="page">
+                  <div class="web mt-3">
+                    <div class="box">
+                      <img src="img/my works/delapan.jpg" alt="">
+                    </div>
+                    <div class="box">
+                      <img src="img/my works/tujuh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="web mt-3">
+                    <div class="box">
+                      <img src="img/my works/enam.jpg" alt="">
+                    </div>
+                    <div class="box">
+                      <img src="img/my works/satu.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="page">
+                  <div class="container">
+                    <div class="alert alert-success" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>Tugas I Basis Data</h5>
+                          <p>Status : Di kumpulkan</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-check"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-download"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-success" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>PBO (Membuat website dinamis)</h5>
+                          <p>Status : Di kumpulkan</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-check"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-download"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>Tugas Pemograman Web</h5>
+                          <p>Status : Telat</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-times"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-file-import"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-success" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>OlahRaga</h5>
+                          <p>Status : Di kumpulkan</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-check"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-download"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-secondary" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>Perangkat Bergerak<h5>
+                          <p>Status : Proses</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-hourglass-half"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-file-import"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-secondary" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>Tugas II Basis Data<h5>
+                          <p>Status : Proses</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-hourglass-half"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-file-import"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-secondary" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>Tugas I Bhs Indonesia<h5>
+                          <p>Status : Proses</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-hourglass-half"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-file-import"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-9">
+                          <h5>Pelajaran Agama Islam</h5>
+                          <p>Status : Telat</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="icon fas fa-times"></div>
+                          <div class="icon fas fa-eye"></div>
+                          <div class="icon fas fa-file-import"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="jumbotron content" id="list-item-2">
-                    <h3>Kalkulator JS</h3>
-                    <img src="img/my works/dua.jpg" class="img-fluid">
-                    <p>Ini adalah website kalkulator di buat dengan vanila css,html dan juga js disini saya belajar cara menghitung
-                      menggunakan js website ini hanya untuk belajar saja.
-                    </p>
-                    <button class="btn btn-blue">Kunjungi</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="sertifikat" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="page">
+                  <div class="container">
+                    <div class="alert alert-success" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-11">
+                          <p>FreeCodeCamp Html and Css</p>
+                        </div>
+                        <div class="col-sm-1">
+                          <div class="icon fas fa-eye"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="jumbotron content" id="list-item-3">
-                    <h3>Bot Menulis</h3>
-                    <img src="img/my works/tiga.jpg" class="img-fluid">
-                    <p>Bot menulis ini di buat dengan kegabutan yang sangat gabut membuat website menulis dari tulisan ketikan menjadi
-                      tulisan tangan ini berfungsi saat tugas online hwehwehweweh
-                    </p>
-                    <button class="btn btn-blue">Kunjungi</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="cv" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="page">
+                  <div class="container">
+                    <div class="alert alert-secondary" role="alert">
+                      <div class="row d-flex align-items-center">
+                        <div class="col-sm-11">
+                          <p>Download Cv Iqbal Roni</p>
+                        </div>
+                        <div class="col-sm-1">
+                          <div class="icon fas fa-download"></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="jumbotron content" id="list-item-4">
-                    <h3>Brain</h3>
-                    <img src="img/my works/empat.jpg" class="img-fluid">
-                    <p>Website adalah website belajar membuat suatu project start up perkerjaan disini saya design website dan juga frontend
-                      developmentnya saya membuat flatdesignnya sendiri tanpa mengambil dari google menggunakan Adobe Ilustrator
-                    </p>
-                    <button class="btn btn-blue">Kunjungi</button>
-                  </div>
-                  <div class="jumbotron content" id="list-item-5">
-                    <h3>Get Waves</h3>
-                    <img src="img/my works/lima.jpg" class="img-fluid">
-                    <p>Mencoba menggunakan GetWaves untuk memberikan gelombang gelombang pada website agar tidak terlihat 
-
-                    </p>
-                    <button class="btn btn-blue">Kunjungi</button>
-                  </div>
-                  <div class="jumbotron content" id="list-item-6">
-                    <h3>Design Logo Dan Konten Instagram</h3>
-                    <img src="img/my works/enam.jpg" class="img-fluid">
-                    <p>Membuat Logo dari adobe Ilustrator dan adobe Photoshop dan saya juga mempunyai instagram untuk mengisi kegabutan setiap
-                      hari saya nama akunnya adalah @CodingSkuy jangan luppa follow untuk belajar bersama
-                    </p>
-                    <button class="btn btn-blue">Kunjungi</button>
-                  </div>
+                </div>
               </div>
             </div>
           </div>

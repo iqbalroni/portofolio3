@@ -104,6 +104,8 @@
     overflow-y: scroll;
 }
 
+
+
 .openfile .img-fluid {
     border-radius: 15px;
 }
@@ -165,4 +167,71 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.openfile .web {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page {
+    overflow-y: scroll;
+    height: 400px;
+    padding: 20px;
+}
+
+.openfile .dsg {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.openfile .container .box {
+    width: 40%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: inset rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.openfile .container .box img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* alert */
+.openfile .alert h5 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.openfile .alert p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.openfile .icon {
+    cursor: pointer;
+}
+
+.openfile .nav-link {
+    background-color: #dbdbdb;
+    border-radius: 15px;
+    margin-left: 10px;
+    color: #677F92;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.openfile .nav-link.active {
+    background-color: #677F92;
+    color: #dbdbdb;
+    border-radius: 15px;
+    margin-left: 10px;
 }
